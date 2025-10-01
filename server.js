@@ -8,7 +8,7 @@ const API_KEY = process.env.MAILERLITE_API_KEY;
 
 
 const app = express();
-app.use(cors({ origin: "http://localhost:5173" }));
+app.use(cors({ origin: "https://www.origenefashion.com" }));
 app.use(express.json());
 
 // Newsletter signup endpoint
